@@ -303,6 +303,10 @@ background-color: white
 
 /*banner*/
 .banner{
-  width: 340rpx;
-  height: 340rpx;
+  width: 100%;
+  height: 100px
+}
+/* 轮播 */
+.banner image{
+  height: 200px
 }

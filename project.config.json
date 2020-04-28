@@ -25,7 +25,11 @@
 	},
 	"compileType": "miniprogram",
 	"libVersion": "2.10.4",
+
 	"appid": "wx86db4f4df58ebaff",
+
+	"appid": "wxca0e3ed1e0788bea",
+
 	"projectname": "company",
 	"debugOptions": {
 		"hidedInDevtools": []

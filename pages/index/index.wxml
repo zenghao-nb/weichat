@@ -6,19 +6,18 @@
     <!-- <image mode="widthFix" src="https://www.z4a.net/images/2020/04/27/292x.png" class="share"></image> -->
     <image mode="widthFix" src="/img/shar.png" class="share"></image> 
     <view class="search_box">
-      <input type="text" class="navi" placeholder="搜索" value="{{inputVal}}" focus="{{inputShowed}}" bindinput="inputTyping" name="inputvalue" />
-      <button class="kais" formType="submit">搜索</button>
+      <input type="text" class="navi" placeholder="搜索" value="{{inputVal}}" focus="{{inputShowed}}" name="inputvalue" />
+      <button id="searchAll" formType="submit"><icon type="search" size="30" id="icon-search"></icon></button>
+      <!-- <button class="kais" formType="submit"></button> -->
     </view>
     <navigator open-type="switchTab" data-tproduct="{{tproduct}}" bindtap="message">
       <image src="https://www.z4a.net/images/2020/04/27/ima.png" class="ima"></image>
     </navigator>
   </view>
   </form>
+  lu
   <view class="index-swiper">
     <swiper autoplay indicator-dots circular indicator-active-color="#ee6d35">
-      <!-- <swiper-item wx:for="{{swiperList}}" wx:key="{{good_id}}">
-                <image mode="widthFix" src="{{item.image_src}}"></image>
-          </swiper-item> -->
       <swiper-item>
         <image mode="widthFix" src="/img/pi.png" class="banner"></image>
       </swiper-item>

@@ -1,6 +1,6 @@
 <view class="wrap">
   <view class="container">
-    <image src="/img/矩形 1@2x.png" class="login">
+    <image src="https://www.z4a.net/images/2020/04/27/92x.png" class="login">
       <view class="cicle">
       </view>
     </image>
@@ -32,15 +32,15 @@
         <!-- 四个 -->
         <view class="nav-bar">
           <navigator open-type="switchTab" bindtap="money">
-            <image  src="/img/mine/dfk.png"></image>
+            <image  src="https://www.z4a.net/images/2020/04/27/dfk.png"></image>
             <text>待付款</text>
           </navigator>
           <navigator open-type="switchTab" bindtap="addres">
-            <image  src="/img/mine/dfh.png"></image>
+            <image  src="https://www.z4a.net/images/2020/04/27/dfk.png"></image>
             <text>待发货</text>
           </navigator>
           <navigator open-type="switchTab" bindtap="take">
-            <image src="/img/mine/dsh.png"></image>
+            <image src="https://www.z4a.net/images/2020/04/27/dsh.png"></image>
             <text>待收货</text>
           </navigator>
           <!-- <navigator open-type="switchTab" bindtap="eva">
@@ -52,17 +52,17 @@
     </view>
     <view class="catage">
       <view class="team" open-type="switchTab" bindtap="team">
-        <image src="/img/mine/team.png"></image>
+        <image src="https://www.z4a.net/images/2020/04/27/team.png"></image>
         <text class="teamC">我的团队</text>
         <text class="catege_more">></text>
       </view>
       <view class="team" open-type="switchTab" bindtap="vip">
-        <image src="/img/mine/vip.png"></image>
+        <image src="https://www.z4a.net/images/2020/04/27/vip.png"></image>
         <text class="teamC">会员中心</text>
         <text class="catege_more">></text>
       </view>
       <view class="team" open-type="switchTab" bindtap="card" id="{{}}">
-        <image src="/img/mine/person.png"></image>
+        <image src="https://www.z4a.net/images/2020/04/27/person.png"></image>
         <text class="teamC">我的二维码</text>
         <text class="catege_more">></text>
       </view>

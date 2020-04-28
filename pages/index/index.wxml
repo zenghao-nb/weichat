@@ -1,19 +1,18 @@
 <!--index.wxml-->
 <view class="index-container">
-
+<!-- 搜索框 -->
+<form bindsubmit="formSubmit" >
   <view class="search-input">
     <image mode="widthFix" src="/img/shar.png" class="share"></image>
-
     <view class="search_box">
       <input type="text" class="navi" placeholder="搜索" value="{{inputVal}}" focus="{{inputShowed}}" bindinput="inputTyping" name="inputvalue" />
-      <view class="kais" bindtap="kais">搜索</view>
-
+      <button class="kais" formType="submit">搜索</button>
     </view>
-
     <navigator open-type="switchTab" data-tproduct="{{tproduct}}" bindtap="message">
       <image src="/img/ima.png" class="ima"></image>
     </navigator>
   </view>
+  </form>
 
   <view class="index-swiper">
     <swiper autoplay indicator-dots circular indicator-active-color="#ee6d35">
@@ -51,30 +50,13 @@
       <text>会员中心</text>
     </navigator>
     <navigator open-type="switchTab" bindtap="sign">
-      <image mode="widthFix" src="/img/five/food.png"></image>
+      <image mode="widthFix" src="https://www.z4a.net/images/2020/04/27/food.th.png"></image>
       <text>签到中心</text>
     </navigator>
   </view>
-
-
   <!-- 商品 -->
   <view class="allproduct">全部</view>
-  <view wx:if="{{tproduct.length >= 0}}">
-    <view class="goods-box">
-      <navigator wx:for="{{tproduct}}" class="productdown">
-        <image mode="widthFix" src="{{item.goodsImg}}" open-type="switchTab" bindtap="detail" url="" id="{{item.id}}" class="banner"></image>
-        <view class="additional">
-          <view>{{item.goodsName}}</view>
-        </view>
-        <view class="price">
-          <text class="old">￥{{item.goodsPrice}}</text>
-          <text class="new">￥{{item.goodsPriceNew}}</text>
-          <text class="through">+{{item.goodsIntegral}}积分</text>
-        </view>
-      </navigator>
-    </view>
-  </view>
-  <view wx:else>
+  <!-- <view wx:if="{{tproductP.length >= 0}}"> -->
     <view class="goods-box">
       <navigator wx:for="{{tproductP}}" class="productdown">
         <image mode="widthFix" src="{{item.goodsImg}}" open-type="switchTab" bindtap="detail" url="" id="{{item.id}}" class="banner"></image>
@@ -88,5 +70,21 @@
         </view>
       </navigator>
     </view>
-  </view>
+  
+  <!-- </view> -->
+  <!-- <view wx:else>
+    <view class="goods-box">
+      <navigator wx:for="{{tproductP}}" class="productdown">
+        <image mode="widthFix" src="{{item.goodsImg}}" open-type="switchTab" bindtap="detail" url="" id="{{item.id}}" class="banner"></image>
+        <view class="additional">
+          <view>{{item.goodsName}}</view>
+        </view>
+        <view class="price">
+          <text class="old">￥{{item.goodsPrice}}</text>
+          <text class="new">￥{{item.goodsPriceNew}}</text>
+          <text class="through">+{{item.goodsIntegral}}积分</text>
+        </view>
+      </navigator>
+    </view>
+  </view> -->
 </view>

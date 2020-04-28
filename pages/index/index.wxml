@@ -7,7 +7,6 @@
     <view class="search_box">
       <input type="text" class="navi" placeholder="搜索" value="{{inputVal}}" focus="{{inputShowed}}" bindinput="inputTyping" name="inputvalue" />
       <view class="kais" bindtap="kais">搜索</view>
-
     </view>
 
     <navigator open-type="switchTab" data-tproduct="{{tproduct}}" bindtap="message">
@@ -21,13 +20,13 @@
                 <image mode="widthFix" src="{{item.image_src}}"></image>
           </swiper-item> -->
       <swiper-item>
-        <image mode="widthFix" src="/img/pi.png" class="banner"></image>
+        <image mode="heightFi" src="https://www.z4a.net/images/2020/04/27/pi.jpg" class="banner"></image>
       </swiper-item>
       <swiper-item>
-        <image mode="widthFix" src="/img/pi.png" class="banner"></image>
+        <image mode="heightFi" src="https://www.z4a.net/images/2020/04/27/pi.jpg" class="banner"></image>
       </swiper-item>
       <swiper-item>
-        <image mode="widthFix" src="/img/pi.png" class="banner"></image>
+        <image mode="heightFi" src="https://www.z4a.net/images/2020/04/27/pi.jpg" class="banner"></image>
       </swiper-item>
     </swiper>
   </view>

@@ -1,0 +1,54 @@
+<view class="wrap">
+
+  <image src="{{goodsImg}}" class="goodImg"></image>
+  <view class="cate_page">
+    <text class="cate_describe left">{{goodsName}}</text>
+    <view>
+    <!-- <text>{{goodsPrice}}</text> -->
+      <text class="cata_newprice left">￥{{goodsPriceNew}} +{{goodsIntegral}}积分</text>
+      <text class="cata_oldprice">￥{{goodsPrice}}</text>
+      <text class="pinkage">包邮</text>
+    </view>
+  </view>
+
+  <view class="cate_page">
+    <view>
+      <view>
+        <text class="cata_addres left">发货地址</text>
+        <text class="cata_addresDsc left">中国.四川</text>
+      </view>
+      <!-- <view class="goods_safe" bindtap="goodssafe">
+        <text class="cata_safe left">保障</text>
+        <text class="cata_safeDsc left">巨款是否及时冻结法</text>
+
+        <text>></text>
+        <view class="show" wx:if="{{safe}}">
+          <view class="safe"> </view>
+          <view class="bottom" catchtap="dis"></view>
+        </view>
+      </view> -->
+    </view>
+  </view>
+
+  <view class="cate_page">
+    <view>
+      <view class="goods_choose" open-type="switchTab" bindtap="buy" id="{{goodId}}">
+        <text class="cata_addres left">商品选择</text>
+        <text class="cata_addresDsc left">的撒的师傅告诉对方说的不对 ></text>
+      </view>
+      <!-- <view class="goods_number" bindtap="goodsnumber">
+        <text class="cata_safe left">参数</text>
+        <text class="cata_safeDsc left">巨款是否及时冻结法</text>
+
+        <text>></text>
+        <view class="show" wx:if="{{goodssafe}}">
+          <view class="safe"> </view>
+          <view class="bottom" catchtap="goodsdis"></view>
+        </view>
+      </view> -->
+    </view>
+  </view>
+
+
+  <image src="/img/buy.png" class="buy" open-type="switchTab"  bindtap="buy" id="{{goodId}}"></image>
+</view>

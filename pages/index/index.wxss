@@ -1,0 +1,291 @@
+.index-container {
+  background-color: #f0f0f0;
+}
+
+/* component/search/search.wxss */
+.search-input{
+  height: 60rpx;
+  padding: 10rpx;
+  display: flex;
+  justify-content: space-between;
+
+}
+/*搜索框*/
+.navi{
+  /* background-color: #fffbd8;
+  width: 300rpx;
+  height: 80rpx;
+  border-radius: 40rpx;
+  padding-left:180rpx; */
+}
+.share{
+  width: 36rpx;
+  height: 50rpx;
+  margin-left:26rpx;
+}
+.ima{
+   width: 36rpx;
+  height: 50rpx;
+  margin-right: 22rpx;
+ 
+}
+.search-input image{
+  margin-top: 10rpx;
+}
+.search_box{
+  width: 500rpx;
+height: 60rpx;
+border:5rpx solid #69b752;
+border-radius: 30rpx;
+display: flex;
+justify-content: space-around;
+align-items: center;
+padding-left: 20rpx;
+}
+.kais{
+  width: 100rpx;
+  height: 45rpx;
+  border-radius: 23rpx;
+  background-color: #69b752;
+  text-align: center;
+  
+}
+/* .search-input navigator.navi{
+  width: 80%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items:center;
+  background-color: #fffbd8;
+  border-radius: 40rpx;
+  color: #666;
+} */
+
+
+
+.index-swiper {
+  width: 720rpx;
+  height: 340rpx;
+  margin: 30rpx auto 20rpx auto;
+ 
+}
+
+.index-swiper swiper {
+  height: 340rpx;
+   
+}
+
+.index-swiper swiper image {
+  width: 100%;
+  border-radius: 20rpx;
+}
+
+/*公告栏*/
+
+.announcement {
+  height: 66rpx;
+  background-color: #fff;
+}
+
+.tz {
+  width: 47rpx;
+  height: 42rpx;
+  margin-left: 30rpx;
+  margin-top: 15rpx;
+  vertical-align: bottom;
+}
+
+.ggl {
+  font-size: 26rpx;
+  color: #242424;
+  margin-left: 30rpx;
+}
+
+/* 五个 */
+
+.nav-bar {
+  padding-top: 14rpx;
+  /* padding-bottom: 14rpx; */
+  display: flex;
+  justify-content: space-around;
+}
+
+.nav-bar image {
+  width: 80rpx;
+}
+
+.nav-bar text {
+  font-size: 26rpx;
+  line-height: 60rpx;
+  color: #1c1c1c;
+  font-weight: bold;
+}
+
+.nav-bar>navigator {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* 限时抢购 */
+
+.one-left {
+  width: 230rpx;
+  height: 42rpx;
+  background-color: #fc3659;
+  text-align: center;
+  border-radius: 50rpx;
+  color: #fff;
+  margin: 30rpx auto 0 auto;
+}
+
+.morelimit {
+  font-size: 28rpx;
+  color: #ffc742;
+  text-align: center;
+}
+
+.the_last {
+  text-align: center;
+  color: #fff;
+}
+
+.hour {
+  width: 34rpx;
+  height: 34rpx;
+  background-color: #ff365a;
+}
+
+.shoplimit {
+  margin-top: 30rpx;
+}
+
+.countdown {
+  float: left;
+  width: 338rpx;
+  height: 442rpx;
+  background-color: pink;
+  margin-left: 30rpx;
+}
+
+.Vright {
+  float: right;
+  margin-right: 27rpx;
+}
+
+.vip {
+  width: 340rpx;
+  height: 208rpx;
+  background-color: skyblue;
+}
+
+.vip>view {
+  color: #241f1c;
+  font-size: 32rpx;
+}
+
+.vip>text {
+  color: #fbb96b;
+  font-size: 22rpx;
+}
+
+.sign {
+  width: 340rpx;
+  height: 208rpx;
+  background-color: yellow;
+  margin-top: 26rpx;
+}
+
+.sign>view {
+  color: #241f1c;
+  font-size: 32rpx;
+}
+
+.sign>text {
+  color: #fbb96b;
+  font-size: 22rpx;
+}
+
+/* 商品 */
+
+.allproduct {
+  margin-top: 20rpx;
+  width: 100rpx;
+  height: 50rpx;
+  background-color: #58ab51;
+  margin-left: 36rpx;
+  color: #fff;
+  font-size: 34rpx;
+  border-radius: 10rpx;
+  text-align: center;
+}
+
+.goods-box {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+  padding: 0 16rpx;
+  margin-top: 16rpx;
+  justify-content: space-between;
+}
+
+.goods-box navigator {
+  width: 49%;
+  border-radius: 10rpx;
+  background-color: #fff;
+  padding-bottom: 16rpx;
+  margin-bottom: 16rpx;
+}
+
+.goods-box navigator image {
+  width: 100%;
+  border-top-left-radius: 10rpx;
+  border-top-right-radius: 10rpx;
+}
+
+.goods-box navigator .name {
+  font-size: 40rpx;
+}
+
+.goods-box navigator .additional {
+  display: flex;
+  margin: 8rpx 60rpx 0 20rpx;
+}
+.old{
+  color: #fc2230;
+  font-size: 20rpx;
+  text-decoration: line-through;
+}
+.goods-box navigator .additional view {
+  padding: 5rpx 4rpx;
+  border-radius: 16rpx;
+  font-size: 24rpx;
+  color: #373737;
+}
+
+.goods-box navigator .price text {
+  margin-right: 24rpx;
+}
+
+.goods-box navigator .price .new {
+  color: #ea332f;
+  font-size: 24rpx;
+  margin-left: 5rpx;
+}
+
+.goods-box navigator .price .through {
+  font-size: 20rpx;
+  color: #ea332f;
+}
+
+.goods-box navigator .price .old {
+  font-size: 18rpx;
+  color: #999;
+}
+
+/*banner*/
+.banner{
+  width: 340rpx;
+  height: 340rpx;
+}

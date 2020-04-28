@@ -1,0 +1,11 @@
+<view class="wrap">
+  <view class="message_des" open-type="switchTab" bindtap="mesDes" wx:for="{{tproduct}}" id="{{id}}">
+    <image src="/img/通知@2x.png">kdmnfjkd</image>
+    <view class="mes">
+      <text class="sys_mes"> 系统消息 </text>
+      <text class="year">2012-1-1</text>
+      <text class="hour">12:11:11</text>
+      <view class="sys_des">{{item.text}}</view>
+    </view>
+  </view>
+</view>

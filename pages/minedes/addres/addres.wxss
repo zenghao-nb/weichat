@@ -1,0 +1,47 @@
+/* pages/minedes/addres/addres.wxss */
+.pay{
+  display: flex;
+  flex-direction: column;
+}
+.payM{
+  display: flex;
+  flex-direction: row;
+   width: 692rpx;
+   height: 205rpx;
+   margin: 20rpx auto;
+}
+.img{
+}
+.img>image{
+  width:310rpx;
+  height: 200rpx;
+}
+.des{
+   width:380rpx;
+ background-color: #fff;
+}
+.des_box{
+  padding-left: 30rpx;
+}
+.des_text{
+  color: #515151;
+  font-size: 24rpx;
+}
+.hour{
+  color: #515151;
+  font-size: 20rpx;
+}
+.money{
+  font-size: 26rpx;
+  color: #515151;
+}
+.integral{
+   font-size: 24rpx;
+  color: #515151;
+  }
+
+.send{
+line-height: 50rpx;
+ color: #e42a35;
+ font-size: 28rpx;
+}

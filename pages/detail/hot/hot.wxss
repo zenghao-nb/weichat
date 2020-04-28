@@ -1,0 +1,50 @@
+/* component/hot/hot.wxss */
+
+.wrap {
+  background-color: #f8f8f8;
+}
+
+.agency {
+  width: 690rpx;
+  height: 260rpx;
+  background-color: pink;
+  margin: 0 auto;
+  margin-top: 30rpx;
+}
+
+.Head {
+  margin-left: 20rpx;
+}
+
+.headP {
+  width: 60rpx;
+  height: 60rpx;
+  border-radius: 50%;
+  margin-top: 20rpx;
+}
+
+.headDes {
+  width: 145rpx;
+  height: 145rpx;
+  border-radius: 10rpx;
+  margin-left: 20rpx;
+}
+
+.agencyC {
+  display: inline-block;
+}
+
+.agentC {
+  margin-top: -20rpx;
+  float: left;
+  margin-left: 10rpx;
+  color: #353535;
+}
+
+.lookP {
+  color: #676767;
+  font-size: 28rpx;
+  margin-top: -15rpx;
+  float: right;
+  margin-left: 330rpx;
+}

@@ -1,0 +1,75 @@
+<view class="box">
+  <view wx:if="{{code ==1}}" class="vip-99">
+
+    <image mode="widthFix" src="/img/vip/n.png" class="vip-99-img"></image>
+
+
+    <image mode="widthFix" src="/img/vip/nine.png" class="vip-99-img"></image>
+
+  </view>
+  <view  wx:else class="vip-99">
+    <image mode="widthFix" src="/img/vip/nine.png" class="vip-699-img"></image>
+  </view>
+  <view wx:if="{{code == 1}}" class="buy">
+    <view class="select-vip">   
+        <image mode="widthFix" class="p-1" src="/img/vip/3@2x.png" ></image>
+        <text bindtap="vipnine" hover-class="vip-bg" data-type="getType1">99VIP</text>
+        <image mode="widthFix" class="p-1" src="/img/vip/4@2x.png" ></image>
+        <text bindtap="vipsix"data-type="getType2">699vip</text>
+    </view>
+    <view class="vip-desc">
+      {{desc1}}
+      {{desc2}}
+    </view>
+    <view class="vip-btn">
+      <button class="btn1" type="primary" bindtap="buyVip" data-vipid="">立即充值</button>
+    </view>
+  </view>
+
+
+  <view wx:else class="buy">
+    <view class="select-vip">   
+        <image mode="widthFix" class="p-2" src="/img/vip/4@2x.png" ></image>
+        <text bindtap="vipsix"data-type="getType2">699vip</text>
+    </view>
+    <view class="vip-desc">
+      {{desc3}}
+    </view>
+    <view class="vip-btn">
+      <button class="btn1" type="primary" bindtap="buyvip2" data-price="{{price2}}">立即充值</button>
+    </view>
+  </view>
+  <!-- <view class="wrap"> -->
+  <!-- <view class="vipN"> -->
+  <!-- <view class="nsix">
+        <image src="/img/vip/n.png" class="nine"></image>
+        <text>
+            <image src="/img/vip/3@2x.png"></image>
+            <text>asdfghjl</text>
+        </text>
+      </view>
+
+      <view class="ssix">
+        <image src="/img/vip/nine.png" class="six"></image>
+        <text>
+            <image src="/img/vip/3@2x.png"></image>
+            <text>z现场VB你们，。、</text>
+        </text>
+      </view> -->
+  <!-- </view> -->
+  <!-- <view>会员福利</view> -->
+  <view class="goods-box">
+    <navigator wx:for="{{tproduct}}" class="productdown" url="">
+      <image mode="widthFix" src="{{item.goodsImg}}" open-type="switchTab" bindtap="detail" id="{{item.id}}"></image>
+      <view class="additional">
+        <view>{{item.goodsName}}</view>
+      </view>
+        <view class="price">
+        <text class="old">￥{{item.goodsPrice}}</text>
+        <text class="new">￥{{item.goodsPriceNew}}</text>
+        <text class="through">+{{item.goodsIntegral}}积分</text>
+      </view>
+    </navigator>
+  </view>
+  <!-- </view> -->
+</view>

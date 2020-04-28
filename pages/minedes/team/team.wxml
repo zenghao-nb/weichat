@@ -1,0 +1,6 @@
+<view>
+  <view class="teamDes">
+    <image src="/img/pi.png" class="headP"></image>
+    <text>天空蓝</text>
+  </view>
+</view>

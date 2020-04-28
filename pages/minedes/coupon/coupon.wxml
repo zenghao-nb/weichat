@@ -1,0 +1,8 @@
+<view>
+  <view class="teamDes">
+    <image src="{{avataUrl}}" class="headP"></image>
+    <text>{{name}}</text>
+     <image src="/img/36@2x.png" class="coupon_img"></image>
+  </view>
+
+</view>

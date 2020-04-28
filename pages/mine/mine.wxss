@@ -1,0 +1,136 @@
+.box{
+  margin:20rpx 0 0 56rpx;
+  position: absolute;
+}
+/*三个一*/
+.three_box{
+  display: flex;
+  flex-direction: row;
+  top: 146rpx;
+  left: 146rpx;
+  position: absolute;
+}
+.box_img{
+  display: flex;
+  flex-direction: column;
+  margin-left: 50rpx;
+  color: #fff;
+  font-size: 28rpx;
+}
+.number{
+  display: inline-block;
+  padding-left: 10rpx;
+  text-align: center
+}
+.tx{
+  width: 130rpx;
+  height: 130rpx;
+  border-radius: 50%;
+ vertical-align:middle;
+ margin: auto
+}
+.name{
+  font-size: 30rpx;
+  color: #dbdbdb;
+  margin-left: 20rpx;
+}
+.login{
+  position: relative;
+}
+.container{
+
+}
+.login{
+  width: 750rpx;
+   position: absolute;
+}
+.cicle{
+  width: 145rpx;
+  height: 145rpx;
+  background-color: red;
+  margin-top: 20rpx;
+ 
+  }
+  .shop{
+    width: 690rpx;
+    height: 220rpx;
+    background-color: #fff;
+    position: relative;
+    top:260rpx;
+    left: 30rpx;
+    border-radius: 20rpx;
+  }
+
+
+.order{
+  font-size: 34rpx;
+  color: #403c3c;
+  margin-left: 20rpx;
+  line-height: 68rpx;
+}
+.more{
+  font-size: 26rpx;
+  color:#666666;
+  float: right;
+  margin-right: 40rpx;
+  line-height: 68rpx;
+}
+
+.nav-bar{
+  padding-top: 14rpx;
+  padding-bottom: 14rpx;
+  display: flex;
+  justify-content: space-around;
+}
+.nav-bar>navigator>image{
+  width: 80rpx;
+  height: 70rpx;
+}
+.nav-bar>navigator>text{
+  font-size: 26rpx;
+  margin-top: 10rpx;
+  color: #5a5a5a;
+}
+.nav-bar>navigator{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.catage{
+     width: 690rpx;
+    height: 340rpx;
+    background-color: #fff;
+    position: relative;
+    top: 300rpx;
+    margin: 0 auto;
+    border-radius: 20rpx;
+    /* border: 1rpx #000 solid; */
+}
+.team>image{
+  width: 50rpx;
+  height: 50rpx;
+  margin-left: 20rpx;
+  margin-top: 30rpx;
+  vertical-align: bottom;
+}
+.teamC{
+  border-bottom-color: red;
+  border-bottom: 590rpx;
+  margin-left: 20rpx;
+  color: #
+}
+.team>.catege_more{
+  margin-left: 350rpx;
+}
+.catage{
+  display: flex;
+  flex-direction: column;
+}
+.team{
+  height: 100rpx;
+  border-bottom-width: 100rpx;
+  border-bottom-color: red;
+}
+.text1{
+  margin: 0 0 0 8px
+}

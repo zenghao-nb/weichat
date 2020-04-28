@@ -1,0 +1,7 @@
+/* pages/detail/mesDes/mesDes.wxss */
+.wrap{
+  background-color: #fff;
+}
+.wrap>text{
+  margin: 30rpx 20rpx 0 20rpx;
+}

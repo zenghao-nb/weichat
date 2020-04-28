@@ -1,0 +1,19 @@
+<view class="wrap">
+  <view class="agency">
+    <view class="Head">
+      <image src="/img/pi.png" class="headP"></image>
+      <view class="agencyC">
+        <text class="agentC">代理中心</text>
+        <text class="lookP" open-type="switchTab" bindtap="lookP">查看主页></text>
+      </view>
+
+    </view>
+
+    <view>
+      <image src="/img/pi.png" class="headDes"></image>
+      <image src="/img/pi.png" class="headDes"></image>
+      <image src="/img/pi.png" class="headDes"></image>
+      <image src="/img/pi.png" class="headDes"></image>
+    </view>
+  </view>
+</view>

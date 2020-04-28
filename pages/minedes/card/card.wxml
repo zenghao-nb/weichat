@@ -1,0 +1,12 @@
+<view>
+  <view class="teamDes">
+    <image src="{{avataUrl}}" class="headP"></image>
+    <text>{{name}}</text>
+  </view>
+  <view class="code">
+  <image src="/img/code.jpg"></image>
+  </view>
+  <view>
+  {{}}
+  </view>
+</view>

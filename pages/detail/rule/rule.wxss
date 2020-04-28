@@ -1,0 +1,54 @@
+/* pages/detail/rule/rule.wxss */
+.wrap{
+  width: 690rpx;
+  margin: 0 auto;
+}
+.choose_head{
+  margin: 20rpx 0; 
+}
+.choose{
+  display: inline-block;
+  width: 15rpx;
+  height: 45rpx;
+  background-color: #fa3761;
+ vertical-align: middle;
+
+}
+.choose_des{
+  color: #373737;
+  font-size: 32rpx;
+  margin-left: 10rpx;
+  font-weight: bold;
+}
+
+.sign{
+  height: 190rpx;
+  width: 100%;
+  background-color: #fff;
+   border-radius: 20rpx;
+  
+}
+.sign>text{
+  color: #333333;
+  font-size: 28rpx;
+  margin-left: 24rpx;
+  line-height: 50rpx;
+}
+.sign>image{
+  width: 640rpx;
+  height: 100rpx;
+ border-radius: 20rpx;
+ margin-left: 24rpx;
+}
+.rule{
+  /* height: 220rpx; */
+  background-color: #fff;
+  border-radius: 20rpx;
+  /* line-height: 10rpx; */
+  color: #cbcbcb;
+  font-size: 24rpx;
+  padding-left: 20rpx;
+}
+.rule>text{
+  line-height: 5rpx;
+}

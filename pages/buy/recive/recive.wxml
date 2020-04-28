@@ -1,0 +1,16 @@
+<view class="add-content">
+  <view class="recive-name">
+    <view>收货人</view>
+    <input type="text" name="username" bindinput='usernameInput' placeholder="请输入收货人姓名"></input>
+  </view>
+  <view class="recive-number">
+    <view>电话号码</view>
+    <input type="text" name="phonenumber" bindinput='phonenumberInput' placeholder="请输入电话"></input>
+  </view>
+  <view class="addres">
+    <view>地址</view>
+    <input type="text" name="address" bindinput='addressInput' placeholder="请输入地址"></input>
+  </view>
+
+  <button type="primary" class="sure-btn" bindtap="finish">完成</button>
+</view>

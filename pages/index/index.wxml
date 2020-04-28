@@ -1,0 +1,92 @@
+<!--index.wxml-->
+<view class="index-container">
+
+  <view class="search-input">
+    <image mode="widthFix" src="/img/shar.png" class="share"></image>
+
+    <view class="search_box">
+      <input type="text" class="navi" placeholder="搜索" value="{{inputVal}}" focus="{{inputShowed}}" bindinput="inputTyping" name="inputvalue" />
+      <view class="kais" bindtap="kais">搜索</view>
+
+    </view>
+
+    <navigator open-type="switchTab" data-tproduct="{{tproduct}}" bindtap="message">
+      <image src="/img/ima.png" class="ima"></image>
+    </navigator>
+  </view>
+
+  <view class="index-swiper">
+    <swiper autoplay indicator-dots circular indicator-active-color="#ee6d35">
+      <!-- <swiper-item wx:for="{{swiperList}}" wx:key="{{good_id}}">
+                <image mode="widthFix" src="{{item.image_src}}"></image>
+          </swiper-item> -->
+      <swiper-item>
+        <image mode="widthFix" src="/img/pi.png" class="banner"></image>
+      </swiper-item>
+      <swiper-item>
+        <image mode="widthFix" src="/img/pi.png" class="banner"></image>
+      </swiper-item>
+      <swiper-item>
+        <image mode="widthFix" src="/img/pi.png" class="banner"></image>
+      </swiper-item>
+    </swiper>
+  </view>
+  <!--公告栏-->
+  <view class="announcement">
+    <image src="/img/gg.png" class="tz"></image>
+    <text class="ggl">公告栏在此</text>
+  </view>
+  <!-- 五个 -->
+  <view class="nav-bar">
+    <!-- <navigator open-type="switchTab" bindtap="hot">
+      <image mode="widthFix" src="/img/five/hot.png"></image>
+      <text>代理中心</text>
+    </navigator> -->
+    <navigator open-type="switchTab" bindtap="sign">
+      <image mode="widthFix" src="/img/five/new.png"></image>
+      <text>积分商城</text>
+    </navigator>
+    <navigator open-type="switchTab" open-type="switchTab" bindtap="vip">
+      <image mode="widthFix" src="/img/five/oil.png"></image>
+      <text>会员中心</text>
+    </navigator>
+    <navigator open-type="switchTab" bindtap="sign">
+      <image mode="widthFix" src="/img/five/food.png"></image>
+      <text>签到中心</text>
+    </navigator>
+  </view>
+
+
+  <!-- 商品 -->
+  <view class="allproduct">全部</view>
+  <view wx:if="{{tproduct.length >= 0}}">
+    <view class="goods-box">
+      <navigator wx:for="{{tproduct}}" class="productdown">
+        <image mode="widthFix" src="{{item.goodsImg}}" open-type="switchTab" bindtap="detail" url="" id="{{item.id}}" class="banner"></image>
+        <view class="additional">
+          <view>{{item.goodsName}}</view>
+        </view>
+        <view class="price">
+          <text class="old">￥{{item.goodsPrice}}</text>
+          <text class="new">￥{{item.goodsPriceNew}}</text>
+          <text class="through">+{{item.goodsIntegral}}积分</text>
+        </view>
+      </navigator>
+    </view>
+  </view>
+  <view wx:else>
+    <view class="goods-box">
+      <navigator wx:for="{{tproductP}}" class="productdown">
+        <image mode="widthFix" src="{{item.goodsImg}}" open-type="switchTab" bindtap="detail" url="" id="{{item.id}}" class="banner"></image>
+        <view class="additional">
+          <view>{{item.goodsName}}</view>
+        </view>
+        <view class="price">
+          <text class="old">￥{{item.goodsPrice}}</text>
+          <text class="new">￥{{item.goodsPriceNew}}</text>
+          <text class="through">+{{item.goodsIntegral}}积分</text>
+        </view>
+      </navigator>
+    </view>
+  </view>
+</view>

@@ -1,0 +1,62 @@
+<view>
+  <view class="sign">
+    <text class="rule" bindtap="rule" open-type="swithTap">规则说明</text>
+    <view class="outSign">
+      <view class="bigCilcle">
+        <text>可用积分{{jifen}}</text>
+      </view>
+      <view class="smallCilcle1" bindtap="sign">
+        <text>签到</text>
+      </view>
+      <view class="smallCilcle2" bindtap="sign">
+        <text>+100</text>
+      </view>
+      <view class="smallCilcle3" bindtap="sign">
+        <text>+100</text>
+      </view>
+      <view class="smallCilcle4" bindtap="sign">
+        <text>+100</text>
+      </view>
+    </view>
+    <!-- <view class="cilcle"></view>
+    <view>
+      <text>已连续签到4天</text>
+    </view> -->
+  </view>
+  <view class="signDate">
+    <view class="left">已经连续签到{{days}}天</view>
+    <view class="signSevenday">
+      <view class="date1">
+       <view  class="icon1" > <icon type="success" color='gray'></icon></view>
+        <view class="time"><text>5.13</text></view>
+      </view>
+    
+       <view class="date1">
+       <view  class="icon1" > <icon type="success" color='{{color}}'></icon></view>
+        <view class="time"><text>5.13</text></view>
+      </view>
+       <view class="date1">
+       <view  class="icon1" > <icon type="success" color='gray'></icon></view>
+        <view class="time"><text>5.13</text></view>
+      </view>
+    </view>
+  </view>
+
+  <view class="box">
+
+    <view>会员福利</view>
+    <view class="goods-box">
+      <navigator wx:for="{{tproduct}}" class="productdown" url="">
+        <image mode="widthFix" src="{{item.goodsImg}}" open-type="switchTab" bindtap="detail" id="{{item._id}}"></image>
+        <view class="additional">
+          <view>{{item.goodsDesc}}</view>
+        </view>
+        <view class="price">
+          <text class="new">￥{{item.goodsPrice}}</text>
+          <text class="through">+{{item.goodsPrice}}积分</text>
+        </view>
+      </navigator>
+    </view>
+  </view>
+
+</view>

@@ -1,0 +1,165 @@
+.box {
+  background-color: #f8f8f8;
+}
+
+.wrap {
+  width: 670rpx;
+  height: 100%;
+  background-color: #f8f8f8;
+  margin: 0 auto;
+}
+
+.vipN {
+  display: flex;
+  flex-direction: row;
+}
+
+nsix {
+  width: 300rpx;
+}
+
+ssix {
+  width: 300rpx;
+}
+
+.image {
+  width: 50%;
+  height: 320rpx;
+  margin-top: 20rpx;
+  border-bottom-width: 100%;
+  border-color: red;
+}
+
+.goods-box {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+  margin-top: 16rpx;
+  justify-content: space-between;
+}
+
+.goods-box navigator {
+  width: 49%;
+  border-radius: 10rpx;
+  background-color: #fff;
+  padding-bottom: 16rpx;
+  margin-bottom: 16rpx;
+}
+
+.goods-box navigator image {
+  width: 100%;
+  border-top-left-radius: 10rpx;
+  border-top-right-radius: 10rpx;
+}
+
+.goods-box navigator .name {
+  font-size: 40rpx;
+}
+
+.goods-box navigator .additional {
+  display: flex;
+  margin: 8rpx 60rpx 0 20rpx;
+}
+
+.goods-box navigator .additional view {
+  padding: 5rpx 4rpx;
+  border-radius: 16rpx;
+  font-size: 24rpx;
+  color: #373737;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+
+.goods-box navigator .price text {
+  margin-right: 24rpx;
+}
+
+.goods-box navigator .price .new {
+  color: #ea332f;
+  font-size: 24rpx;
+  margin-left: 5rpx;
+}
+
+.goods-box navigator .price .through {
+  font-size: 20rpx;
+  color: #ea332f;
+}
+
+.goods-box navigator .price .old {
+  font-size: 18rpx;
+  color: #999;
+  text-decoration: line-through;
+}
+
+.vip-99 {
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+  margin-left: 15%;
+}
+
+.vip-99-img {
+  width: 60%;
+  margin-right: 10%;
+}
+
+.p-1 {
+  width: 5%;
+  /* border-bottom: 1px solid green; */
+  margin-left: 85px;
+  vertical-align: center;
+}
+
+.p-2 {
+  width: 5%;
+  /* border-bottom: 1px solid green; */
+  margin-left: 150px;
+  vertical-align: center;
+}
+
+.buy {
+  margin-top: 10px;
+  /* border: 1px solid red; */
+  height: 25vh;
+}
+
+.vip-desc {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.vip-btn {
+  margin-top: 45px;
+  border-radius: 10px;
+  height: 30px;
+  line-height: 30px;
+}
+
+.btn1 {
+  height: 30px;
+  line-height: 16px;
+  font-size: 12px;
+  border-radius: 15px;
+}
+
+.vip-bg {
+  color: goldenrod;
+}
+
+.vip-699 {
+  width: 80%;
+  margin-left: 10%;
+  text-align: center;
+}
+
+.vip-699-img {
+  width: 60%;
+  text-align: center;
+  margin-left: 50px;
+}

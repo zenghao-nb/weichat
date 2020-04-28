@@ -1,0 +1,71 @@
+<view>
+  <view class="wrap">
+  
+    <view class="addres_box">
+    <navigator url="/pages/buy/address/address" open-type="navigate">
+      <view class="addres">收货地址</view>
+      <view class="app">
+        <text>姓名{{username}}</text>
+        <text>电话{{phonenumber}}</text>
+        <view style="margin-top:5px">地址{{add}}</view>
+<!-- <button class="modify-address" size="mini" bindtap="myShowModel" type="primary">修改地址</button> -->
+      </view>
+      </navigator>
+    </view>
+    <view class="goods_wrap">
+      <view class="goods_id">
+        <view class="clearfix">
+          <image src="/img/pi.png" class="goods_img"></image>
+          <view class="goods_des">
+            <view>精品包装纸包装纸</view>
+            <text>24包1000g</text>
+          </view>
+        </view>
+      </view>
+      <view class="goods_detail">
+        <view>
+          <text>商品总价</text>
+          <text>#23</text>
+        </view>
+        <view>
+          <text>快递运费</text>
+          <text>#23</text>
+        </view>
+        <view>
+          <text>运费险</text>
+          <text>#23</text>
+        </view>
+        <view>
+          <text>订单总价</text>
+          <text>#23</text>
+        </view>
+        <view>
+          <text>实付款</text>
+          <text>#23</text>
+        </view>
+      </view>
+    </view>
+
+    <!-- <view class="addres_box">
+      <view class="addres">发货地址</view>
+      <view class="app">
+        <text>姓名</text>
+        <text>电话</text>
+        <text>></text>
+        <view>地址</view>
+      </view>
+    </view> -->
+  </view>
+  <view>
+    <!-- <image src="/img/back.png" class="submit"></image> -->
+    <image src="/img/back.png" class="submit">
+
+    </image>
+    <view class="submit_des">
+      <text>共8件</text>
+      <text>合计</text>
+      <text>#5555</text>
+    </view>
+    <button type="primary" class="sure-order">提交订单</button>
+  </view>
+</view>

@@ -1,0 +1,50 @@
+<view>
+  <view class="wrap">
+    <view class="choose_head">
+      <text class="choose"></text>
+      <text class="choose_des">如何找到签到入口？</text>
+    </view>
+    <view class="sign">
+      <text>1.在"首页"中间区域</text>
+      <image src="/img/26@2x.png"></image>
+    </view>
+
+    <view class="choose_head">
+      <text class="choose"></text>
+      <text class="choose_des">签到规则</text>
+    </view>
+    <view class="rule">
+      <text>
+      1、会员中心"每日签到",一个用户每天总计只能参加1次.
+2、每天签到有机会获得不等签到积分奖励，连续“签到”有机会获得额外惊喜.
+3、若存在用户恶意刷奖行为，平台有权取消其获奖资格，并保留相关法律权利.
+      </text>
+    </view>
+
+     <view class="choose_head">
+      <text class="choose"></text>
+      <text class="choose_des">如何使用积分</text>
+    </view>
+    <view class="rule">
+      <text>
+      1、签到可直接用于支付商城订单，在消费时100元可抵30元现金使用，积分支付不得超过每笔订单结算金额的30%.
+2、每日签到可获得100积分,当日未签到扣除1000积分.
+例如：结算金额是100元，30%就是30元，那结算时最多只能用300个签到支付。
+      </text>
+    </view>
+
+     <view class="choose_head">
+      <text class="choose"></text>
+      <text class="choose_des">公平参与与活动</text>
+    </view>
+    <view class="rule">
+      <text>
+      签到有效期说明
+您获得但未使用的签到积分，将在下一个自然年底过期，平台将定期对过期签到进行作废处理。
+例如：2015年12月31日将清空2014年度客户获得但未使用的签到积分。
+注：使用签到支付的商品发生退货时，如签到退回时已过有效期，则直接进行作废处理，不再返回。
+积分规则由平台制定并依据国家相关法律法规及规章制度   予以解释和修改，规则以商城公布为准。
+      </text>
+    </view>
+  </view>
+</view>

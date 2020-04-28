@@ -1,0 +1,98 @@
+/* pages/category/index.wxss */
+
+.wrap {
+  background-color: #f8f8f8;
+  height: 100%;
+}
+
+.goodImg {
+  width: 100%;
+  height: 802rpx;
+  border-radius: 10rpx;
+}
+/*描述*/
+.cate_page {
+  background-color: #fff;
+  margin-bottom: 20rpx;
+}
+.cate_page>text{
+  line-height: 60rpx;
+}
+.left {
+  margin-left: 30rpx;
+}
+
+.show {
+  width: 100%;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+}
+
+.bottom {
+  width: 100%;
+  height: 42%;
+  background-color: #fff;
+  border-radius: 20rpx;
+}
+
+.safe {
+  height: 58%;
+  background-color: #96928c;
+  opacity: 0.7;
+}
+
+.cate_describe {
+  display: inline-block;
+  color: #333;
+  line-height: 55rpx;
+  width: 618rpx;
+  overflow: hidden; /*超出部分隐藏*/
+  white-space: nowrap; /*不换行*/
+  text-overflow: ellipsis; /*超出部分文字以...显示*/
+}
+
+.cata_newprice {
+  color: #ff211e;
+  font-size: 30rpx;
+}
+
+.cata_oldprice {
+  color: #919191;
+  font-size: 18rpx;
+  line-height: 55rpx;
+}
+
+.pinkage {
+  color: #666;
+  margin-left: 250rpx;
+}
+
+.cata_addres {
+  color: #999;
+  font-size: 28rpx;
+  line-height: 60rpx;
+}
+
+.cata_safe {
+  color: #999;
+  font-size: 28rpx;
+}
+
+.cata_addresDsc {
+  color: #494949;
+  font-size: 28rpx;
+  margin-left: 44rpx;
+}
+
+.cata_safeDsc {
+  color: #494949;
+  font-size: 28rpx;
+  margin-left: 100rpx;
+}
+/*立即购买*/
+.buy {
+  width: 100%;
+  height: 96rpx;
+  margin-bottom: 0;
+}

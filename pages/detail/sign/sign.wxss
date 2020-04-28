@@ -1,0 +1,191 @@
+/* component/sign/sign.wxss */
+
+.sign {
+  width: 100%;
+  height: 312rpx;
+}
+
+.rule {
+  float: right;
+  margin-right: 30rpx;
+  color: #78a167;
+  font-size: 24rpx;
+}
+
+.cilcle {
+  width: 200rpx;
+  height: 200rpx;
+  background-color: green;
+  border-radius: 50%;
+}
+
+.goods-box {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+  margin-top: 16rpx;
+  justify-content: space-between;
+}
+
+.goods-box navigator {
+  width: 49%;
+  border-radius: 10rpx;
+  background-color: #fff;
+  padding-bottom: 16rpx;
+  margin-bottom: 16rpx;
+}
+
+.goods-box navigator image {
+  width: 100%;
+  border-top-left-radius: 10rpx;
+  border-top-right-radius: 10rpx;
+}
+
+.goods-box navigator .name {
+  font-size: 40rpx;
+}
+
+.goods-box navigator .additional {
+  display: flex;
+  margin: 8rpx 60rpx 0 20rpx;
+}
+
+.goods-box navigator .additional view {
+  padding: 5rpx 4rpx;
+  border-radius: 16rpx;
+  font-size: 24rpx;
+  color: #373737;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+
+.goods-box navigator .price text {
+  margin-right: 24rpx;
+}
+
+.goods-box navigator .price .new {
+  color: #ea332f;
+  font-size: 30rpx;
+  margin-left: 20rpx;
+}
+
+.goods-box navigator .price .through {
+  font-size: 24rpx;
+  color: #ea332f;
+}
+
+.goods-box navigator .price .pay {
+  font-size: 18rpx;
+  color: #999;
+}
+
+/* 签到积分 */
+
+.outSign {
+  position: relative;
+}
+
+.bigCilcle {
+  width: 80px;
+  height: 80px;
+  border: 3px solid #68b752;
+  border-radius: 50%;
+  position: absolute;
+  top: 50px;
+  left: 120px;
+}
+
+.bigCilcle text {
+  display: inline-block;
+  margin: 10px 0 0 0;
+  padding-top: 10px;
+  font-size: 15px;
+  color: #68b752;
+  text-align: center
+}
+
+.smallCilcle1 {
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  background: #68b752;
+  position: absolute;
+  top: 60px;
+  left: 80px;
+}
+
+.smallCilcle2 {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background: #68b752;
+  position: absolute;
+  top: 18px;
+  left: 120px;
+}
+
+.smallCilcle3 {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background: #68b752;
+  position: absolute;
+  top: 22px;
+  left: 180px;
+}
+
+.smallCilcle4 {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background: #68b752;
+  position: absolute;
+  top: 60px;
+  left: 230px;
+}
+.smallCilcle1 text ,
+.smallCilcle2 text ,
+.smallCilcle3 text ,
+.smallCilcle4 text 
+{
+  font-size: 10px;
+  color: white;
+  margin:10px 0 0 2px
+}
+/* 连续签到 */
+.signDate{
+  clear: both;
+  display: flex;
+  height: 60px;
+  margin: 20px 0
+}
+.signDate .left{
+  height: 40px;
+  padding-right: 5px;
+  margin: 10px 20px;
+  width: 20%;
+  text-align: center;
+  font-size: 12px;
+  border-right: 1px solid #68b752
+}
+.signSevenday{
+  display: flex
+}
+.date1{
+  margin-right: 10px
+}
+.date1 .icon1{
+  margin-top: 5px
+}
+.date1 .time{
+  font-size: 12px
+}
+.line{
+  width: 20px;
+  border-top: 1px solid gray;
+  margin-top: 30px
+}

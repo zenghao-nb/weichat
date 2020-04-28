@@ -9,6 +9,8 @@
       <input type="text" class="navi" placeholder="搜索" value="{{inputVal}}" focus="{{inputShowed}}" name="inputvalue" />
       <button id="searchAll" formType="submit"><icon type="search" size="30" id="icon-search"></icon></button>
       <!-- <button class="kais" formType="submit"></button> -->
+      <input type="text" class="navi" placeholder="搜索" value="{{inputVal}}" focus="{{inputShowed}}" bindinput="inputTyping" name="inputvalue" />
+      <view class="kais" bindtap="kais">搜索</view>
     </view>
     <navigator open-type="switchTab" data-tproduct="{{tproduct}}" bindtap="message">
       <image src="https://www.z4a.net/images/2020/04/27/ima.png" class="ima"></image>
@@ -30,6 +32,7 @@
       <!-- </swiper> -->
     <swiper autoplay indicator-dots circular indicator-active-color="#ee6d35">
       <swiper-item>
+
         <image mode="heightFi" src="/img/pi.png" class="banner"></image>
       </swiper-item>
       <swiper-item>
@@ -37,6 +40,15 @@
       </swiper-item>
       <swiper-item>
         <image mode="heightFi" src="/img/pi.png" class="banner"></image>
+
+        <image mode="heightFi" src="https://www.z4a.net/images/2020/04/27/pi.jpg" class="banner"></image>
+      </swiper-item>
+      <swiper-item>
+        <image mode="heightFi" src="https://www.z4a.net/images/2020/04/27/pi.jpg" class="banner"></image>
+      </swiper-item>
+      <swiper-item>
+        <image mode="heightFi" src="https://www.z4a.net/images/2020/04/27/pi.jpg" class="banner"></image>
+
       </swiper-item>
     </swiper>
   </view>

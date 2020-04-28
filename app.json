@@ -1,0 +1,58 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/category/index",
+    "pages/mine/mine",
+    "pages/detail/shoplimit/shoplimit",
+    "pages/detail/vip/vip",
+    "pages/minedes/money/money",
+    "pages/minedes/addres/addres",
+    "pages/minedes/eva/eva",
+    "pages/minedes/take/take",
+    "pages/message/message",
+    "pages/detail/mesDes/mesDes",
+    "pages/buy/imbuy/imbuy",
+    "pages/minedes/team/team",
+    "pages/detail/rule/rule",
+    "pages/buy/sure/sure",
+    "pages/minedes/card/card",
+    "pages/minedes/coupon/coupon",
+    "pages/minedes/wallet/wallet",
+    "pages/minedes/more/more",
+    "pages/detail/myvip/myvip",
+    "pages/daiLi/daiLi"
+  ],
+  "tabBar": {
+    "color": "#ddd",
+    "selectedColor": "#58ab51",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "img/tabbar/12@2x.png",
+        "selectedIconPath": "img/tabbar/8@2x.png"
+      },
+      {
+        "pagePath": "pages/daiLi/daiLi",
+        "text": "代理",
+        "iconPath": "img/tabbar/daili.jpg",
+        "selectedIconPath": "img/tabbar/daili2.jpg"
+      },
+      {
+        "pagePath": "pages/mine/mine",
+        "text": "我的",
+        "iconPath": "img/tabbar/9@2x.png",
+        "selectedIconPath": "img/tabbar/11@2x.png"
+      }
+        
+    ]
+  },
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

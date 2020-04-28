@@ -1,0 +1,9 @@
+<!--pages/buy/address/address.wxml-->
+<view class="add-content">
+<view class="add-info">
+<text>{{username}}</text>
+<text>{{phonenumber}}</text>
+<text>{{add}}</text>
+</view>
+<button class="add-btn" size="mini" bindtap="addAddress"><image class="add-img"  mode="widthFix" src="./../../../img/千亿商城切图/13@2x.png"></image></button>
+</view>

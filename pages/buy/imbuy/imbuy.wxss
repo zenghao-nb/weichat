@@ -1,0 +1,60 @@
+/* pages/buy/imbuy/imbuy.wxss */
+
+.wrap {
+  width: 696rpx;
+  margin: 20rpx auto;
+}
+
+.goods_img {
+  display: block;
+  width: 696rpx;
+  height: 600rpx;
+  border-radius: 20rpx;
+  margin-bottom: 20rpx;
+  position: relative;
+
+}
+/*商品选择*/
+.goods_kind {
+  width: 315rpx;
+  height: 50rpx;
+   background-color: #b0d7a5;
+  border-radius: 30rpx;
+  text-align: center;
+  color: #fff;
+  margin-bottom: 20rpx;
+  margin-top: 20rpx;
+}
+.hover{
+  background-color: #3f954e;
+}
+/*数量*/
+.count{
+  margin-bottom: 20rpx;
+}
+.move{
+  width: 50rpx;
+  height: 50rpx;
+  border-radius: 50%;
+  background-color:#69b753; 
+  display: inline-block;
+  text-align: center;
+}
+.add{
+  width: 50rpx;
+  height: 50rpx;
+  border-radius: 50%;
+  background-color:#69b753; 
+  display: inline-block;
+  text-align: center;
+}
+.number{
+  margin: 0 10rpx;
+}
+/*购买按钮*/
+.buy {
+  position: absolute;
+  width: 100%;
+  height: 96rpx;
+  bottom: 0;
+}

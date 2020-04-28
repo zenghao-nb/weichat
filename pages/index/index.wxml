@@ -2,7 +2,7 @@
 <view class="index-container">
 
   <view class="search-input">
-    <image mode="widthFix" src="/img/shar.png" class="share"></image>
+    <image mode="widthFix" src="https://www.z4a.net/images/2020/04/27/292x.png" class="share"></image>
 
     <view class="search_box">
       <input type="text" class="navi" placeholder="搜索" value="{{inputVal}}" focus="{{inputShowed}}" bindinput="inputTyping" name="inputvalue" />
@@ -11,7 +11,7 @@
     </view>
 
     <navigator open-type="switchTab" data-tproduct="{{tproduct}}" bindtap="message">
-      <image src="/img/ima.png" class="ima"></image>
+      <image src="https://www.z4a.net/images/2020/04/27/ima.png" class="ima"></image>
     </navigator>
   </view>
 
@@ -33,7 +33,7 @@
   </view>
   <!--公告栏-->
   <view class="announcement">
-    <image src="/img/gg.png" class="tz"></image>
+    <image src="https://www.z4a.net/images/2020/04/27/-12x.png" class="tz"></image>
     <text class="ggl">公告栏在此</text>
   </view>
   <!-- 五个 -->
@@ -47,11 +47,11 @@
       <text>积分商城</text>
     </navigator>
     <navigator open-type="switchTab" open-type="switchTab" bindtap="vip">
-      <image mode="widthFix" src="/img/five/oil.png"></image>
+      <image mode="widthFix" src="https://www.z4a.net/images/2020/04/27/oil.png"></image>
       <text>会员中心</text>
     </navigator>
     <navigator open-type="switchTab" bindtap="sign">
-      <image mode="widthFix" src="/img/five/food.png"></image>
+      <image mode="widthFix" src="https://www.z4a.net/images/2020/04/27/food.th.png"></image>
       <text>签到中心</text>
     </navigator>
   </view>

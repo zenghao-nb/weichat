@@ -13,7 +13,7 @@
     <view class="three_box">
       <view class="box_img" bindtap="coupon" open-type="switchTab">
         <text class="number">1</text>
-        <text class="text1">优惠卷1</text>
+        <text class="text1">优惠卷</text>
       </view>
       <view class="box_img" bindtap="integral" open-type="switchTab">
         <text class="number">1</text>

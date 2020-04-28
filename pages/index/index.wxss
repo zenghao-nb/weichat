@@ -308,5 +308,5 @@ background-color: white
 }
 /* 轮播 */
 .banner image{
-  height: 200px
+  height: 200px 
 }

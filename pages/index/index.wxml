@@ -17,28 +17,28 @@
   </form>
   <!-- 轮播  -->
   <view class="index-swiper">
-   <swiper indicator-dots="true"
+   <!-- <swiper indicator-dots="true"
         autoplay="true" interval="5000" duration="500">
         <!-- <block wx:for="{{background}}" wx:key="*this"> -->
-          <swiper-item class="banner">
+          <!-- <swiper-item class="banner">
            <image mode="widthFix" src="/img/pi.png" ></image>
           </swiper-item>
            <swiper-item  class="banner">
            <image mode="widthFix" src="/img/pi.png"></image>
           </swiper-item>
         <!-- </block> -->
-      </swiper>
-    <!-- <swiper autoplay indicator-dots circular indicator-active-color="#ee6d35">
+      <!-- </swiper> -->
+    <swiper autoplay indicator-dots circular indicator-active-color="#ee6d35">
       <swiper-item>
-        <image mode="widthFix" src="/img/pi.png" class="banner"></image>
+        <image mode="heightFi" src="/img/pi.png" class="banner"></image>
       </swiper-item>
       <swiper-item>
-        <image mode="widthFix" src="/img/pi.png" class="banner"></image>
+        <image mode="heightFi" src="/img/pi.png" class="banner"></image>
       </swiper-item>
       <swiper-item>
-        <image mode="widthFix" src="/img/pi.png" class="banner"></image>
+        <image mode="heightFi" src="/img/pi.png" class="banner"></image>
       </swiper-item>
-    </swiper> -->
+    </swiper>
   </view>
   <!--公告栏-->
   <view class="announcement">

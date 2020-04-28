@@ -14,16 +14,18 @@ Page({
     goodsId: null,
     id: '',
     userId: null,
-    number:'',
+    number: '',
     md: null,
-    goodsPrice:'',
-    goodsImg:'',
+    goodsPrice: '',
+    goodsImg: '',
+    shGoods: '',
+    payStatu: ''
   },
 
   /**
    * 生命周期函数--监听页面加载
    */
-  onLoad: function(e) {
+  onLoad: function (e) {
     // console.log(e);
     let id = e.id;
     var page = this;
@@ -46,7 +48,7 @@ Page({
           goodsAttrList: res.data.data[0].goodsAttrList,
           goodsAttrIds: res.data.data[0].goodsAttrList[0].id,
           goodsId: res.data.data[0].goodsAttrList[0].goodsId,
-          number:0,
+          number: 0,
           goodsPrice: res.data.data[0].goodsAttrList[0].goodsPrice
         })
       },
@@ -66,7 +68,7 @@ Page({
         number: 0
       })
     }
-    // console.log(this.data.number)
+    console.log(this.data.number)
   },
   add(e) {
     this.setData({
@@ -81,12 +83,14 @@ Page({
 
   },
   sure(e) {
-    // console.log(e)
+    console.log(e)
     this.setData({
       number: this.data.number
     })
-    // console.log(this.data.number)
-   
+    console.log('number111111111', this.data.number)
+    app.globalData.number = this.data.number;
+    console.log(app.globalData.number)
+
     wx.request({
       url: 'http://192.168.101.106:60010/api/wqy/order',
       header: {
@@ -98,11 +102,24 @@ Page({
       data: {
         goodsId: this.data.goodsId,
         userId: app.globalData.userId,
-        goodsNumber: this.data.number,
+        goodsNumber: app.globalData.number,
         goodsAttrIds: this.data.md
       },
       success: (res) => {
-        // console.log(res);
+        console.log(res);
+        var shGoods = res.data.data
+        var memberId = res.data.data.memberId
+        var orderId = res.data.data.orderId
+        var payStatus = res.data.data.payStatus
+
+        app.globalData.shGoods = shGoods
+        app.globalData.memberId = memberId
+        app.globalData.orderId = orderId
+        app.globalData.payStatus = payStatus
+        console.log("orderId:" + orderId)
+        console.log("memberId:" + memberId)
+        console.log("shGoods:" + shGoods)
+        console.log("payStatus:" + payStatus)
         wx.navigateTo({
           url: `/pages/buy/sure/sure`,
         });
@@ -112,7 +129,7 @@ Page({
       }
     })
   },
-  onShareAppMessage: function() {
+  onShareAppMessage: function () {
 
   }
 })

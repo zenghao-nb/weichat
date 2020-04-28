@@ -3,7 +3,7 @@
 <!-- 搜索框 -->
 <form bindsubmit="formSubmit" >
   <view class="search-input">
-    <image mode="widthFix" src="https://www.z4a.net/images/2020/04/27/292x.png" class="share"></image>
+    <!-- <image mode="widthFix" src="https://www.z4a.net/images/2020/04/27/292x.png" class="share"></image> -->
     <image mode="widthFix" src="/img/shar.png" class="share"></image> 
     <view class="search_box">
       <input type="text" class="navi" placeholder="搜索" value="{{inputVal}}" focus="{{inputShowed}}" bindinput="inputTyping" name="inputvalue" />

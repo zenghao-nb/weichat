@@ -1,0 +1,29 @@
+<view>
+  <view class="wrap">
+    <image src="{{goodsImg}}" class="goods_img">
+    </image>
+    <view>商品名称</view>
+    <view class="clear">
+      <view class="goods_kind" wx:for="{{goodsAttrList}}" goodsAttrList-item="item" wx:for-index="idx" bindtap="goodskind" id="{{item.id}}" hover-class="hover">{{item.attrValue}} ￥{{item.attrPrice}}
+      </view>
+    </view>
+    <view>
+      <view>
+        <view wx:for="{{attrValue}}"></view>
+      </view>
+    </view>
+    <view>
+      <view class="count">数量</view>
+      <text class="move" bindtap="move">-</text>
+      <text class="number">{{number}}</text>
+      <text class="add" bindtap="add">+</text>
+    </view>
+  </view>
+
+
+
+  <!-- <image src="/img/sure.png" class="buy" bindtap="sure" open-type="switchTab">
+
+  </image> -->
+  <image src="/img/sure.png" class="buy" bindtap="sure"  open-type="switchTab"></image>
+</view>
